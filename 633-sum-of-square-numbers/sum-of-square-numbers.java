@@ -1,6 +1,5 @@
 class Solution {
     public boolean judgeSquareSum(int c) {
-        
         long low = 0;
         long high = (long) Math.sqrt(c);
         
@@ -17,6 +16,5 @@ class Solution {
             }
         }
         return false;
-        
     }
 }
